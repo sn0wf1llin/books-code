@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hehehe - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "E:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP20.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/hehehe.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Program Files\Microsoft Visual Studio\MyProjects\hehehe\hehehe.c"
+]
+Creating command line "cl.exe @E:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP20.tmp" 
+Creating temporary file "E:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP21.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/hehehe.pdb" /machine:I386 /out:"Release/hehehe.exe" 
+".\Release\hehehe.obj"
+]
+Creating command line "link.exe @E:\DOCUME~1\9335~1\LOCALS~1\Temp\RSP21.tmp"
+<h3>Output Window</h3>
+Compiling...
+hehehe.c
+E:\Program Files\Microsoft Visual Studio\MyProjects\hehehe\hehehe.c(26) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+hehehe.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
